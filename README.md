@@ -8,7 +8,7 @@
 接下来的操作，就是把你的代码和github网站进行同步：
 
 1. 上传代码 
-	git push
+	git push -u origin master
 2. 下载代码
 	git pull
 
