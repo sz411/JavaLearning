@@ -1,0 +1,41 @@
+一,数组名.length	用于获取数组的长度
+二,导入工具类	 import java.util.Scanner;
+Scanner input_1=new Scanner(System.in);
+int score=input_1.nextInt();
+三,数组声明:
+int[] scores=new int[5];
+如果直接赋值,后面不能指定数组长度.
+四,Arrays类操作Java数组:
+	Arrays.sort(数组名);升序排序
+	Arrays.toString(数组名);该方法按顺序将多个数组元素连接在一起,多个元素直接用逗号和空格隔开
+五，foreach操作数组	foreach不是关键字，只是对于这种语句的一种叫法。
+for(元素类型 元素变量：遍历对象)
+{	执行的代码
+}
+ 六、内存分配，局部变量，全局变量。堆:动态分配。
+值对象：
+引用对象：
+七、所谓方法，就是用来解决一类问题的代码的有序组合，是一个功能模块。
+访问修饰符　返回值类型　方法名（参数列表）｛方法体｝
+方法名主要在调用这个方法时使用，需要注意命名的规范，一般采用第一个单词首字母小写，其它单词首字母大写的形式
+package imooc;
+
+public class com {
+    
+    //定义了一个方法名为 print 的方法，实现输出信息功能
+    public void print() {
+		System.out.println("Hello World");
+	}
+    
+ public static void main(String[] args){
+        
+        //在 main 方法中调用 print 方法
+      com test=new com();
+        test.print();
+    }
+}
+八、System.out.println(Arrays.toString(sco));
+利用Arrays类的toString()方法将数组转换为字符串并输出。
+九、 (int) 	(Math.random() * 100)	生成100以内的随机数。
+Math 类是用于进行算术操作的类，Math.random() 生成 0--1 的浮点数
+

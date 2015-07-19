@@ -3,7 +3,7 @@
 （PS：以下命令必须在JavaLearning目录下执行，不能在其子目录下）
 
 1. git add -A
-2. git commit -m "写下你所做的修改，比如添加文件test.java"
+2. git commit -m "一些小练习，笔记"
 
 接下来的操作，就是把你的代码和github网站进行同步：
 
