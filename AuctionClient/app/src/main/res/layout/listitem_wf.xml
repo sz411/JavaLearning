@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/iv_list"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/grey"
+        android:id="@+id/tv_list"
+        android:lines="1"
+        android:textSize="15sp"
+        android:ellipsize="end"
+        android:paddingLeft="20dp"
+        />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="32dp"
+        android:id="@+id/ib_list"
+        android:paddingLeft="8dp"
+        android:drawableLeft="@mipmap/iconfont_xihuan"
+        android:background="@drawable/xihuan_icon"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="right"
+        android:focusable="false"
+        />
+
+</FrameLayout>

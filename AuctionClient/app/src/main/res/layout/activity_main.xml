@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/main">
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/container"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:id="@+id/radio"
+        android:gravity="center_vertical">
+
+        <RadioButton
+            style="@style/home_tab_button"
+            android:background="@drawable/home_tab_selector"
+            android:drawableTop="@drawable/home_tab_top1_selector"
+            android:id="@+id/rb1"/>
+        <RadioButton
+            style="@style/home_tab_button"
+            android:background="@drawable/home_tab_selector"
+            android:drawableTop="@drawable/home_tab_top2_selector"
+            android:id="@+id/rb2"/>
+        <RadioButton
+            style="@style/home_tab_button"
+            android:background="@drawable/home_tab_selector"
+            android:drawableTop="@drawable/home_tab_top3_selector"
+            android:id="@+id/rb3" />
+        <RadioButton
+            style="@style/home_tab_button"
+            android:background="@drawable/home_tab_selector"
+            android:drawableTop="@drawable/home_tab_top4_selector"
+            android:id="@+id/rb4"/>
+        <RadioButton
+            style="@style/home_tab_button"
+            android:background="@drawable/home_tab_selector"
+            android:drawableTop="@drawable/home_tab_top5_selector"
+            android:id="@+id/rb5"/>
+    </RadioGroup>
+</LinearLayout>
